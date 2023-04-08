@@ -14,7 +14,7 @@
         "adapter": {
           "type": "TwoBitAdapter",
           "twoBitLocation": {
-            "uri": "PlantFUNCO_data/Arabidopsis/0.Assembly/Arabidopsis_thaliana.fa.2bit",
+            "uri": "PlantFUNCO_data/Arabidopsis/0.Assembly/Arabidopsis_thaliana.2bit",
             "locationType": "UriLocation"
           }
         }
@@ -32,7 +32,7 @@
         "adapter": {
           "type": "TwoBitAdapter",
           "twoBitLocation": {
-            "uri": "PlantFUNCO_data/Oryza/0.Assembly/Oryza_sativa.fa.2bit",
+            "uri": "PlantFUNCO_data/Oryza/0.Assembly/Oryza_sativa.2bit",
             "locationType": "UriLocation"
           }
         }
@@ -50,7 +50,7 @@
         "adapter": {
           "type": "TwoBitAdapter",
           "twoBitLocation": {
-            "uri": "PlantFUNCO_data/Zea/0.Assembly/Zea_mays.fa.2bit",
+            "uri": "PlantFUNCO_data/Zea/0.Assembly/Zea_mays.2bit",
             "locationType": "UriLocation"
           }
         }
