@@ -1,0 +1,58 @@
+{
+  "dateCreated": "2023-04-07T20:58:09.827Z",
+  "tracks": [
+    {
+      "trackId": "Gene models Zm",
+      "attributesIndexed": [
+        "Name",
+        "ID"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "./PlantFUNCO_data/Zea/0.Annotation/Zm.gene_exons.sorted.gff3.pol",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "./PlantFUNCO_data/Zea/0.Annotation/Zm.gene_exons.sorted.gff3.pol.poli",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      }
+    },
+    {
+      "trackId": "Zea Inter-species Chromatin States",
+      "attributesIndexed": [
+        "Name",
+        "ID"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "./PlantFUNCO_data/Zea/1.CShiHMM/CShiHMM.sorted.gff3.pol",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "./PlantFUNCO_data/Zea/1.CShiHMM/CShiHMM.sorted.gff3.pol.poli",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      }
+    }
+  ],
+  "assemblyNames": [
+    "Zea_mays.fa"
+  ]
+}

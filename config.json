@@ -1,0 +1,955 @@
+{
+  "configuration": {
+     "logoPath": {
+	"locationType": "UriLocation",
+	"uri": "./logo.svg"
+	}
+     },
+  "assemblies": [
+    {
+      "name": "Arabidopsis_thaliana.fa",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Arabidopsis_thaliana.fa-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "TwoBitAdapter",
+          "twoBitLocation": {
+            "uri": "./PlantFUNCO_data/Arabidopsis/0.Assembly/Arabidopsis_thaliana.fa.2bit",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "aliases": [
+        "at"
+      ],
+      "displayName": "Arabidopsis thaliana"
+    },
+    {
+      "name": "Oryza_sativa.fa",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Oryza_sativa.fa-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "TwoBitAdapter",
+          "twoBitLocation": {
+            "uri": "./PlantFUNCO_data/Oryza/0.Assembly/Oryza_sativa.fa.2bit",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "aliases": [
+        "os"
+      ],
+      "displayName": "Oryza sativa"
+    },
+    {
+      "name": "Zea_mays.fa",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Zea_mays.fa-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "TwoBitAdapter",
+          "twoBitLocation": {
+            "uri": "./PlantFUNCO_data/Zea/0.Assembly/Zea_mays.fa.2bit",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "aliases": [
+        "zm"
+      ],
+      "displayName": "Zea mays"
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "Gene models At",
+      "name": "Gene models At",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "./PlantFUNCO_data/Arabidopsis/0.Annotation/At.gene_exons.sorted.gff3.pol",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "./PlantFUNCO_data/Arabidopsis/0.Annotation/At.gene_exons.sorted.gff3.pol.poli",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "General"
+      ],
+      "assemblyNames": [
+        "Arabidopsis_thaliana.fa"
+      ],
+      "description": "Gene models for Arabidopsis thaliana"
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Gene models Os",
+      "name": "Gene models Os",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "./PlantFUNCO_data/Oryza/0.Annotation/Os.gene_exons.sorted.gff3.pol",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "./PlantFUNCO_data/Oryza/0.Annotation/Os.gene_exons.sorted.gff3.pol.poli",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "General"
+      ],
+      "assemblyNames": [
+        "Oryza_sativa.fa"
+      ],
+      "description": "Gene models for Oryza sativa"
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Gene models Zm",
+      "name": "Gene models Zm",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "./PlantFUNCO_data/Zea/0.Annotation/Zm.gene_exons.sorted.gff3.pol",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "./PlantFUNCO_data/Zea/0.Annotation/Zm.gene_exons.sorted.gff3.pol.poli",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "General"
+      ],
+      "assemblyNames": [
+        "Zea_mays.fa"
+      ],
+      "description": "Gene models for Zea mays"
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Arabidopsis Inter-species Chromatin States",
+      "name": "Inter-species Chromatin States",
+      "assemblyNames": [
+        "Arabidopsis_thaliana.fa"
+      ],
+      "category": [
+        "Integrative Functional Genomics"
+      ],
+      "description": "Arabidopsis Inter-species Chromatin States",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "./PlantFUNCO_data/Arabidopsis/1.CShiHMM/CShiHMM.sorted.gff3.pol",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "./PlantFUNCO_data/Arabidopsis/1.CShiHMM/CShiHMM.sorted.gff3.pol.poli",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "mytrack-At-LinearBasicDisplay",
+          "renderer": {
+            "color1": "jexl:cast({ CS1: 'purple', CS2: 'purple', CS3: 'purple', CS4: 'purple', CS5: 'purple', CS6: 'green', CS7: 'green', CS8: 'green', CS9: 'green', CS10: 'blue', CS11: 'gold', CS12: 'gold', CS13: 'gold', CS14: 'grey', CS15: 'grey', CS16: 'grey' })[get(feature, 'type')]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Zea Inter-species Chromatin States",
+      "name": "Inter-species Chromatin States",
+      "assemblyNames": [
+        "Zea_mays.fa"
+      ],
+      "category": [
+        "Integrative Functional Genomics"
+      ],
+      "description": "Zea Inter-species Chromatin States",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "./PlantFUNCO_data/Zea/1.CShiHMM/CShiHMM.sorted.gff3.pol",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "./PlantFUNCO_data/Zea/1.CShiHMM/CShiHMM.sorted.gff3.pol.poli",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "mytrack-Zm-LinearBasicDisplay",
+          "renderer": {
+            "color1": "jexl:cast({ CS1: 'purple', CS2: 'purple', CS3: 'purple', CS4: 'purple', CS5: 'purple', CS6: 'green', CS7: 'green', CS8: 'green', CS9: 'green', CS10: 'blue', CS11: 'gold', CS12: 'gold', CS13: 'gold', CS14: 'grey', CS15: 'grey', CS16: 'grey' })[get(feature, 'type')]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Oryza Inter-species Chromatin States",
+      "name": "Inter-species Chromatin States",
+      "assemblyNames": [
+        "Oryza_sativa.fa"
+      ],
+      "category": [
+        "Integrative Functional Genomics"
+      ],
+      "description": "Oryza Inter-species Chromatin States",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "./PlantFUNCO_data/Oryza/1.CShiHMM/CShiHMM.sorted.gff3.pol",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "./PlantFUNCO_data/Oryza/1.CShiHMM/CShiHMM.sorted.gff3.pol.poli",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "mytrack-Os-LinearBasicDisplay",
+          "renderer": {
+            "color1": "jexl:cast({ CS1: 'purple', CS2: 'purple', CS3: 'purple', CS4: 'purple', CS5: 'purple', CS6: 'green', CS7: 'green', CS8: 'green', CS9: 'green', CS10: 'blue', CS11: 'gold', CS12: 'gold', CS13: 'gold', CS14: 'grey', CS15: 'grey', CS16: 'grey' })[get(feature, 'type')]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "PhastCons Arabidopsis",
+      "name": "PhastCons Arabidopsis",
+      "adapter": {
+        "type": "BigBedAdapter",
+        "bigBedLocation": {
+          "uri": "./PlantFUNCO_data/Arabidopsis/1.PhastCons/PhastCons.bb",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Comparative Genomics"
+      ],
+      "assemblyNames": [
+        "Arabidopsis_thaliana.fa"
+      ],
+      "description": "PlantRegMap PhastCons Elements Arabidopsis",
+      "displayMode": [
+        {
+          "defaultValue": "collapse"
+        }
+      ],
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "mytrack-AtPhastCons-LinearBasicDisplay",
+          "renderer": {
+            "color1": "DarkRed"
+          }
+        }
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "PhyloP score Arabidopsis",
+      "name": "PhyloP score Arabidopsis",
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "uri": "./PlantFUNCO_data/Arabidopsis/1.PhyloP/PhyloP.bigwig",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Comparative Genomics"
+      ],
+      "assemblyNames": [
+        "Arabidopsis_thaliana.fa"
+      ],
+      "description": "PlantRegMap PhyloP Score Arabidopsis"
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "CNEs Arabidopsis vs Oryza",
+      "name": "CNEs Arabidopsis vs Oryza",
+      "adapter": {
+        "type": "BigBedAdapter",
+        "bigBedLocation": {
+          "uri": "./PlantFUNCO_data/Arabidopsis/3.Oryza/CNEs/CNEs_At-Os.bb",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Comparative Genomics"
+      ],
+      "assemblyNames": [
+        "Arabidopsis_thaliana.fa"
+      ],
+      "description": "CNEs Arabidopsis vs Oryza",
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "mytrack-CNEsArabidopsisvsOryza-LinearBasicDisplay",
+          "renderer": {
+            "color1": "Blue"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "CNEs Arabidopsis vs Zea",
+      "name": "CNEs Arabidopsis vs Zea",
+      "adapter": {
+        "type": "BigBedAdapter",
+        "bigBedLocation": {
+          "uri": "./PlantFUNCO_data/Arabidopsis/3.Zea/CNEs/CNEs_At-Zm.bb",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Comparative Genomics"
+      ],
+      "assemblyNames": [
+        "Arabidopsis_thaliana.fa"
+      ],
+      "description": "CNEs Arabidopsis vs Zea",
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "mytrack-CNEsArabidopsisvsZea-LinearBasicDisplay",
+          "renderer": {
+            "color1": "Purple"
+          }
+        }
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "LECIF score Arabidopsis vs Zea",
+      "name": "LECIF score Arabidopsis vs Zea",
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "uri": "./PlantFUNCO_data/Arabidopsis/3.Zea/LECIF/At-Zm_LECIFscore.bigwig",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Integrative Functional Genomics"
+      ],
+      "assemblyNames": [
+        "Arabidopsis_thaliana.fa"
+      ],
+      "description": "LECIF score Arabidopsis vs Zea",
+      "displays": [
+        {
+          "type": "LinearWiggleDisplay",
+          "displayId": "mytrack-LECIFArabidopsisvsZea-LinearWiggleDisplay",
+          "renderers": {
+            "XYPlotRenderer": {
+              "color": "purple"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "LECIF score Arabidopsis vs Oryza",
+      "name": "LECIF score Arabidopsis vs Oryza",
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "uri": "./PlantFUNCO_data/Arabidopsis/3.Oryza/LECIF/At-Os_LECIFscore.bigwig",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Integrative Functional Genomics"
+      ],
+      "assemblyNames": [
+        "Arabidopsis_thaliana.fa"
+      ],
+      "description": "LECIF score Arabidopsis vs Oryza",
+      "displays": [
+        {
+          "type": "LinearWiggleDisplay",
+          "displayId": "mytrack-LECIFArabidopsisvsOryza-LinearWiggleDisplay",
+          "renderers": {
+            "XYPlotRenderer": {
+              "color": "blue"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "category": [
+        "Synteny"
+      ],
+      "trackId": "ChainWGAArabidopsisvsOryza",
+      "assemblyNames": [
+        "Arabidopsis_thaliana.fa",
+        "Oryza_sativa.fa"
+      ],
+      "name": "Chain WGA Arabidopsis vs Oryza",
+      "adapter": {
+        "type": "ChainAdapter",
+        "chainLocation": {
+          "uri": "./PlantFUNCO_data/Arabidopsis/3.Oryza/Chain/Arabidopsis_thalianavsOryza_sativa.chain",
+          "locationType": "UriLocation"
+        },
+        "assemblyNames": [
+          "Arabidopsis_thaliana.fa",
+          "Oryza_sativa.fa"
+        ]
+      }
+    },
+    {
+      "type": "SyntenyTrack",
+      "category": [
+        "Synteny"
+      ],
+      "trackId": "ChainWGAArabidopsisvsZea",
+      "assemblyNames": [
+        "Arabidopsis_thaliana.fa",
+        "Zea_mays.fa"
+      ],
+      "name": "Chain WGA Arabidopsis vs Zea",
+      "adapter": {
+        "type": "ChainAdapter",
+        "chainLocation": {
+          "uri": "./PlantFUNCO_data/Arabidopsis/3.Zea/Chain/Arabidopsis_thalianavsZea_mays.chain",
+          "locationType": "UriLocation"
+        },
+        "assemblyNames": [
+          "Arabidopsis_thaliana.fa",
+          "Zea_mays.fa"
+        ]
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "PhastCons Oryza",
+      "name": "PhastCons Oryza",
+      "adapter": {
+        "type": "BigBedAdapter",
+        "bigBedLocation": {
+          "uri": "./PlantFUNCO_data/Oryza/1.PhastCons/PhastCons.bb",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Comparative Genomics"
+      ],
+      "assemblyNames": [
+        "Oryza_sativa.fa"
+      ],
+      "description": "PlantRegMap PhastCons Elements Oryza",
+      "displayMode": [
+        {
+          "defaultValue": "collapse"
+        }
+      ],
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "mytrack-OsPhastCons-LinearBasicDisplay",
+          "renderer": {
+            "color1": "DarkRed"
+          }
+        }
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "PhyloP score Oryza",
+      "name": "PhyloP score Oryza",
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "uri": "./PlantFUNCO_data/Oryza/1.PhyloP/PhyloP.bigwig",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Comparative Genomics"
+      ],
+      "assemblyNames": [
+        "Oryza_sativa.fa"
+      ],
+      "description": "PlantRegMap PhyloP Score Oryza"
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "CNEs Oryza vs Arabidopsis",
+      "name": "CNEs Oryza vs Arabidopsis",
+      "adapter": {
+        "type": "BigBedAdapter",
+        "bigBedLocation": {
+          "uri": "./PlantFUNCO_data/Oryza/3.Arabidopsis/CNEs/CNEs_Os-At.bb",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Comparative Genomics"
+      ],
+      "assemblyNames": [
+        "Oryza_sativa.fa"
+      ],
+      "description": "CNEs Oryza vs Arabidopsis",
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "mytrack-CNEsOryzavsArabidopsis-LinearBasicDisplay",
+          "renderer": {
+            "color1": "Green"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "CNEs Oryza vs Zea",
+      "name": "CNEs Oryza vs Zea",
+      "adapter": {
+        "type": "BigBedAdapter",
+        "bigBedLocation": {
+          "uri": "./PlantFUNCO_data/Oryza/3.Zea/CNEs/CNEs_Os-Zm.bb",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Comparative Genomics"
+      ],
+      "assemblyNames": [
+        "Oryza_sativa.fa"
+      ],
+      "description": "CNEs Oryza vs Zea",
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "mytrack-CNEsOryzavsZea-LinearBasicDisplay",
+          "renderer": {
+            "color1": "Purple"
+          }
+        }
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "LECIF score Oryza vs Zea",
+      "name": "LECIF score Oryza vs Zea",
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "uri": "./PlantFUNCO_data/Oryza/3.Zea/LECIF/Os-Zm_LECIFscore.bigwig",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Integrative Functional Genomics"
+      ],
+      "assemblyNames": [
+        "Oryza_sativa.fa"
+      ],
+      "description": "LECIF score Oryza vs Zea",
+      "displays": [
+        {
+          "type": "LinearWiggleDisplay",
+          "displayId": "mytrack-LECIFOryzavsZea-LinearWiggleDisplay",
+          "renderers": {
+            "XYPlotRenderer": {
+              "color": "purple"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "LECIF score Oryza vs Arabidopsis",
+      "name": "LECIF score Oryza vs Arabidopsis",
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "uri": "./PlantFUNCO_data/Oryza/3.Arabidopsis/LECIF/Os-At_LECIFscore.bigwig",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Integrative Functional Genomics"
+      ],
+      "assemblyNames": [
+        "Oryza_sativa.fa"
+      ],
+      "description": "LECIF score Oryza vs Arabidopsis",
+      "displays": [
+        {
+          "type": "LinearWiggleDisplay",
+          "displayId": "mytrack-LECIFOryzavsArabidopsis-LinearWiggleDisplay",
+          "renderers": {
+            "XYPlotRenderer": {
+              "color": "green"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "category": [
+        "Synteny"
+      ],
+      "trackId": "ChainWGAOryzavsArabidopsis",
+      "assemblyNames": [
+        "Oryza_sativa.fa",
+        "Arabidopsis_thaliana.fa"
+      ],
+      "name": "Chain WGA Oryza vs Arabidopsis",
+      "adapter": {
+        "type": "ChainAdapter",
+        "chainLocation": {
+          "uri": "./PlantFUNCO_data/Oryza/3.Arabidopsis/Chain/Oryza_sativavsArabidopsis_thaliana.chain",
+          "locationType": "UriLocation"
+        },
+        "assemblyNames": [
+          "Oryza_sativa.fa",
+          "Arabidopsis_thaliana.fa"
+        ]
+      }
+    },
+    {
+      "type": "SyntenyTrack",
+      "category": [
+        "Synteny"
+      ],
+      "trackId": "ChainWGAOryzavsZea",
+      "assemblyNames": [
+        "Oryza_sativa.fa",
+        "Zea_mays.fa"
+      ],
+      "name": "Chain WGA Oryza vs Zea",
+      "adapter": {
+        "type": "ChainAdapter",
+        "chainLocation": {
+          "uri": "./PlantFUNCO_data/Oryza/3.Zea/Chain/Oryza_sativavsZea_mays.chain",
+          "locationType": "UriLocation"
+        },
+        "assemblyNames": [
+          "Oryza_sativa.fa",
+          "Zea_mays.fa"
+        ]
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "PhastCons Zea",
+      "name": "PhastCons Zea",
+      "adapter": {
+        "type": "BigBedAdapter",
+        "bigBedLocation": {
+          "uri": "./PlantFUNCO_data/Zea/1.PhastCons/PhastCons.bb",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Comparative Genomics"
+      ],
+      "assemblyNames": [
+        "Zea_mays.fa"
+      ],
+      "description": "PlantRegMap PhastCons Elements Zea",
+      "displayMode": [
+        {
+          "defaultValue": "collapse"
+        }
+      ],
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "mytrack-ZmPhastCons-LinearBasicDisplay",
+          "renderer": {
+            "color1": "DarkRed"
+          }
+        }
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "PhyloP score Zea",
+      "name": "PhyloP score Zea",
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "uri": "./PlantFUNCO_data/Zea/1.PhyloP/PhyloP.bigwig",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Comparative Genomics"
+      ],
+      "assemblyNames": [
+        "Zea_mays.fa"
+      ],
+      "description": "PlantRegMap PhyloP Score Zea"
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "CNEs Zea vs Arabidopsis",
+      "name": "CNEs Zea vs Arabidopsis",
+      "adapter": {
+        "type": "BigBedAdapter",
+        "bigBedLocation": {
+          "uri": "./PlantFUNCO_data/Zea/3.Arabidopsis/CNEs/CNEs_Zm-At.bb",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Comparative Genomics"
+      ],
+      "assemblyNames": [
+        "Zea_mays.fa"
+      ],
+      "description": "CNEs Zea vs Arabidopsis",
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "mytrack-CNEsZeavsArabidopsis-LinearBasicDisplay",
+          "renderer": {
+            "color1": "Green"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "CNEs Zea vs Oryza",
+      "name": "CNEs Zea vs Oryza",
+      "adapter": {
+        "type": "BigBedAdapter",
+        "bigBedLocation": {
+          "uri": "./PlantFUNCO_data/Zea/3.Oryza/CNEs/CNEs_Zm-Os.bb",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Comparative Genomics"
+      ],
+      "assemblyNames": [
+        "Zea_mays.fa"
+      ],
+      "description": "CNEs Zea vs Oryza",
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "mytrack-CNEsZeavsOryza-LinearBasicDisplay",
+          "renderer": {
+            "color1": "Blue"
+          }
+        }
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "LECIF score Zea vs Oryza",
+      "name": "LECIF score Zea vs Oryza",
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "uri": "./PlantFUNCO_data/Zea/3.Oryza/LECIF/Zm-Os_LECIFscore.bigwig",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Integrative Functional Genomics"
+      ],
+      "assemblyNames": [
+        "Zea_mays.fa"
+      ],
+      "description": "LECIF score Zea vs Oryza",
+      "displays": [
+        {
+          "type": "LinearWiggleDisplay",
+          "displayId": "mytrack-LECIFZeavsOryza-LinearWiggleDisplay",
+          "renderers": {
+            "XYPlotRenderer": {
+              "color": "blue"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "LECIF score Zea vs Arabidopsis",
+      "name": "LECIF score Zea vs Arabidopsis",
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "uri": "./PlantFUNCO_data/Zea/3.Arabidopsis/LECIF/Zm-At_LECIFscore.bigwig",
+          "locationType": "UriLocation"
+        }
+      },
+      "category": [
+        "Integrative Functional Genomics"
+      ],
+      "assemblyNames": [
+        "Zea_mays.fa"
+      ],
+      "description": "LECIF score Zea vs Arabidopsis",
+      "displays": [
+        {
+          "type": "LinearWiggleDisplay",
+          "displayId": "mytrack-LECIFZeavsArabidopsis-LinearWiggleDisplay",
+          "renderers": {
+            "XYPlotRenderer": {
+              "color": "green"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "category": [
+        "Synteny"
+      ],
+      "trackId": "ChainWGAZeavsArabidopsis",
+      "assemblyNames": [
+        "Zea_mays.fa",
+        "Arabidopsis_thaliana.fa"
+      ],
+      "name": "Chain WGA Zea vs Arabidopsis",
+      "adapter": {
+        "type": "ChainAdapter",
+        "chainLocation": {
+          "uri": "./PlantFUNCO_data/Zea/3.Arabidopsis/Chain/Zea_maysvsArabidopsis_thaliana.chain",
+          "locationType": "UriLocation"
+        },
+        "assemblyNames": [
+          "Zea_mays.fa",
+          "Arabidopsis_thaliana.fa"
+        ]
+      }
+    },
+    {
+      "type": "SyntenyTrack",
+      "category": [
+        "Synteny"
+      ],
+      "trackId": "ChainWGAZeavsOryza",
+      "assemblyNames": [
+        "Zea_mays.fa",
+        "Oryza_sativa.fa"
+      ],
+      "name": "Chain WGA Zea vs Oryza",
+      "adapter": {
+        "type": "ChainAdapter",
+        "chainLocation": {
+          "uri": "./PlantFUNCO_data/Zea/3.Oryza/Chain/Zea_maysvsOryza_sativa.chain",
+          "locationType": "UriLocation"
+        },
+        "assemblyNames": [
+          "Zea_mays.fa",
+          "Oryza_sativa.fa"
+        ]
+      }
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "Arabidopsis_thaliana.fa-index",
+      "ixFilePath": {
+        "uri": "trix/Arabidopsis_thaliana.fa.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/Arabidopsis_thaliana.fa.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/Arabidopsis_thaliana.fa_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "Arabidopsis_thaliana.fa"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "Oryza_sativa.fa-index",
+      "ixFilePath": {
+        "uri": "trix/Oryza_sativa.fa.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/Oryza_sativa.fa.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/Oryza_sativa.fa_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "Oryza_sativa.fa"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "Zea_mays.fa-index",
+      "ixFilePath": {
+        "uri": "trix/Zea_mays.fa.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/Zea_mays.fa.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/Zea_mays.fa_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "Zea_mays.fa"
+      ]
+    }
+  ]
+}

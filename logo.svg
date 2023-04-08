@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 150 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;">
+    <g transform="matrix(0.123725,0,0,0.123725,-24.109,-0.713771)">
+        <text x="197.088px" y="332.13px" style="font-family:'MarkerFelt-Thin', 'Marker Felt';font-size:350px;fill:rgb(103,166,177);">f</text>
+        <text x="340.587px" y="332.13px" style="font-family:'MarkerFelt-Thin', 'Marker Felt';font-size:288px;fill:rgb(103,166,177);">(	<tspan x="559.468px " y="332.13px ">)</tspan></text>
+    </g>
+    <g transform="matrix(0.123725,0,0,0.123725,34.891,-0.713771)">
+        <text x="197.088px" y="332.13px" style="font-family:'MarkerFelt-Thin', 'Marker Felt';font-size:350px;fill:rgb(103,166,177);">u<tspan x="371.737px 572.636px 739.585px " y="332.13px 332.13px 332.13px ">nco</tspan></text>
+    </g>
+    <g transform="matrix(0.123725,0,0,0.123725,-24.109,-30.1964)">
+        <path d="M485.005,286.584C489.548,294.303 541.139,346.608 532.868,383.825C526.387,412.989 411.434,426.076 407.548,461.829C402.961,504.03 476.671,552.932 479.449,573.112C499.028,535.84 427.077,494.526 433.4,467.701C439.67,441.103 549.503,436.863 558.803,390.578C568.678,341.429 469.724,260.619 485.005,286.584Z" style="fill:rgb(38,38,38);stroke:rgb(38,38,38);stroke-width:0.24px;"/>
+    </g>
+    <g transform="matrix(0.117542,-0.0386225,-0.0386225,-0.117542,-7.46641,89.9094)">
+        <path d="M493.49,389.707L503.462,389.707C522.904,346.78 504.96,325.007 463.025,321.415C461.807,325.382 460.625,328.064 459.274,331.39C501.732,334.505 509.829,353.527 493.49,389.707Z" style="fill:rgb(103,166,177);stroke:rgb(103,166,177);stroke-width:0.15px;"/>
+    </g>
+    <g transform="matrix(-0.117655,-0.0382794,-0.0382794,0.117655,102.794,9.67368)">
+        <path d="M453.38,341.442L490.896,341.442C493.734,339.309 497.345,336.898 498.858,335.196L447.636,333.033L453.38,341.442Z" style="fill:rgb(103,166,177);stroke:rgb(103,166,177);stroke-width:0.15px;"/>
+    </g>
+    <g transform="matrix(0.119982,0.0302012,0.0302012,-0.119982,-33.4537,57.0581)">
+        <path d="M462.396,374.737L504.084,374.737L509.476,365.869L452.982,367.984C454.91,369.748 459.416,372.858 462.396,374.737Z" style="fill:rgb(103,166,177);stroke:rgb(103,166,177);stroke-width:0.15px;"/>
+    </g>
+    <g transform="matrix(-0.118698,-0.0349094,-0.0349094,0.118698,102.541,3.43642)">
+        <path d="M440.779,359.268L499.896,359.268C504.315,355.736 504.418,353.302 500.097,349.49L439.759,348.977L440.779,359.268Z" style="fill:rgb(103,166,177);stroke:rgb(103,166,177);stroke-width:0.15px;"/>
+    </g>
+    <g transform="matrix(0.123725,0,0,0.123725,-24.109,-43.3652)">
+        <path d="M493.863,416.855C440.163,436.135 437.28,481.355 465.879,523.312L475.832,519.604C458.679,496.525 449.069,461.059 473.822,438.058C461.9,458.73 460.52,478.518 469.888,497.404C504.536,465.751 463.883,451.004 493.863,416.855Z" style="fill:rgb(103,166,177);stroke:rgb(103,166,177);stroke-width:0.15px;"/>
+    </g>
+</svg>
