@@ -1,10 +1,4 @@
 {
-  "configuration": {
-     "logoPath": {
-	"locationType": "UriLocation",
-	"uri": "logo.svg"
-	}
-     },
   "assemblies": [
     {
       "name": "Arabidopsis_thaliana.fa",
