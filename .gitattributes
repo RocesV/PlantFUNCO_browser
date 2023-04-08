@@ -1,4 +1,0 @@
-PlantFUNCO_data/Oryza/3.Zea/Chain/Oryza_sativavsZea_mays.chain filter=lfs diff=lfs merge=lfs -text
-PlantFUNCO_data/Zea/0.Assembly/Zea_mays.2bit filter=lfs diff=lfs merge=lfs -text
-PlantFUNCO_data/Zea/3.Oryza/Chain/Zea_maysvsOryza_sativa.chain filter=lfs diff=lfs merge=lfs -text
-trix/Zea_mays.fa.ix filter=lfs diff=lfs merge=lfs -text
