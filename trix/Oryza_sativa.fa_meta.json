@@ -14,12 +14,12 @@
       "adapterConf": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri": "./PlantFUNCO_data/Oryza/0.Annotation/Os.gene_exons.sorted.gff3.pol",
+          "uri": "PlantFUNCO_data/Oryza/0.Annotation/Os.gene_exons.sorted.gff3.pol",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "./PlantFUNCO_data/Oryza/0.Annotation/Os.gene_exons.sorted.gff3.pol.poli",
+            "uri": "PlantFUNCO_data/Oryza/0.Annotation/Os.gene_exons.sorted.gff3.pol.poli",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -39,12 +39,12 @@
       "adapterConf": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri": "./PlantFUNCO_data/Oryza/1.CShiHMM/CShiHMM.sorted.gff3.pol",
+          "uri": "PlantFUNCO_data/Oryza/1.CShiHMM/CShiHMM.sorted.gff3.pol",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "./PlantFUNCO_data/Oryza/1.CShiHMM/CShiHMM.sorted.gff3.pol.poli",
+            "uri": "PlantFUNCO_data/Oryza/1.CShiHMM/CShiHMM.sorted.gff3.pol.poli",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"

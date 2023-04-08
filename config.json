@@ -2,7 +2,7 @@
   "configuration": {
      "logoPath": {
 	"locationType": "UriLocation",
-	"uri": "./logo.svg"
+	"uri": "logo.svg"
 	}
      },
   "assemblies": [
@@ -14,7 +14,7 @@
         "adapter": {
           "type": "TwoBitAdapter",
           "twoBitLocation": {
-            "uri": "./PlantFUNCO_data/Arabidopsis/0.Assembly/Arabidopsis_thaliana.fa.2bit",
+            "uri": "PlantFUNCO_data/Arabidopsis/0.Assembly/Arabidopsis_thaliana.fa.2bit",
             "locationType": "UriLocation"
           }
         }
@@ -32,7 +32,7 @@
         "adapter": {
           "type": "TwoBitAdapter",
           "twoBitLocation": {
-            "uri": "./PlantFUNCO_data/Oryza/0.Assembly/Oryza_sativa.fa.2bit",
+            "uri": "PlantFUNCO_data/Oryza/0.Assembly/Oryza_sativa.fa.2bit",
             "locationType": "UriLocation"
           }
         }
@@ -50,7 +50,7 @@
         "adapter": {
           "type": "TwoBitAdapter",
           "twoBitLocation": {
-            "uri": "./PlantFUNCO_data/Zea/0.Assembly/Zea_mays.fa.2bit",
+            "uri": "PlantFUNCO_data/Zea/0.Assembly/Zea_mays.fa.2bit",
             "locationType": "UriLocation"
           }
         }
@@ -74,12 +74,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri": "./PlantFUNCO_data/Arabidopsis/0.Annotation/At.gene_exons.sorted.gff3.pol",
+          "uri": "PlantFUNCO_data/Arabidopsis/0.Annotation/At.gene_exons.sorted.gff3.pol",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "./PlantFUNCO_data/Arabidopsis/0.Annotation/At.gene_exons.sorted.gff3.pol.poli",
+            "uri": "PlantFUNCO_data/Arabidopsis/0.Annotation/At.gene_exons.sorted.gff3.pol.poli",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -100,12 +100,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri": "./PlantFUNCO_data/Oryza/0.Annotation/Os.gene_exons.sorted.gff3.pol",
+          "uri": "PlantFUNCO_data/Oryza/0.Annotation/Os.gene_exons.sorted.gff3.pol",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "./PlantFUNCO_data/Oryza/0.Annotation/Os.gene_exons.sorted.gff3.pol.poli",
+            "uri": "PlantFUNCO_data/Oryza/0.Annotation/Os.gene_exons.sorted.gff3.pol.poli",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -126,12 +126,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri": "./PlantFUNCO_data/Zea/0.Annotation/Zm.gene_exons.sorted.gff3.pol",
+          "uri": "PlantFUNCO_data/Zea/0.Annotation/Zm.gene_exons.sorted.gff3.pol",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "./PlantFUNCO_data/Zea/0.Annotation/Zm.gene_exons.sorted.gff3.pol.poli",
+            "uri": "PlantFUNCO_data/Zea/0.Annotation/Zm.gene_exons.sorted.gff3.pol.poli",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -159,12 +159,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri": "./PlantFUNCO_data/Arabidopsis/1.CShiHMM/CShiHMM.sorted.gff3.pol",
+          "uri": "PlantFUNCO_data/Arabidopsis/1.CShiHMM/CShiHMM.sorted.gff3.pol",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "./PlantFUNCO_data/Arabidopsis/1.CShiHMM/CShiHMM.sorted.gff3.pol.poli",
+            "uri": "PlantFUNCO_data/Arabidopsis/1.CShiHMM/CShiHMM.sorted.gff3.pol.poli",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -194,12 +194,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri": "./PlantFUNCO_data/Zea/1.CShiHMM/CShiHMM.sorted.gff3.pol",
+          "uri": "PlantFUNCO_data/Zea/1.CShiHMM/CShiHMM.sorted.gff3.pol",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "./PlantFUNCO_data/Zea/1.CShiHMM/CShiHMM.sorted.gff3.pol.poli",
+            "uri": "PlantFUNCO_data/Zea/1.CShiHMM/CShiHMM.sorted.gff3.pol.poli",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -229,12 +229,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri": "./PlantFUNCO_data/Oryza/1.CShiHMM/CShiHMM.sorted.gff3.pol",
+          "uri": "PlantFUNCO_data/Oryza/1.CShiHMM/CShiHMM.sorted.gff3.pol",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "./PlantFUNCO_data/Oryza/1.CShiHMM/CShiHMM.sorted.gff3.pol.poli",
+            "uri": "PlantFUNCO_data/Oryza/1.CShiHMM/CShiHMM.sorted.gff3.pol.poli",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -257,7 +257,7 @@
       "adapter": {
         "type": "BigBedAdapter",
         "bigBedLocation": {
-          "uri": "./PlantFUNCO_data/Arabidopsis/1.PhastCons/PhastCons.bb",
+          "uri": "PlantFUNCO_data/Arabidopsis/1.PhastCons/PhastCons.bb",
           "locationType": "UriLocation"
         }
       },
@@ -290,7 +290,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri": "./PlantFUNCO_data/Arabidopsis/1.PhyloP/PhyloP.bigwig",
+          "uri": "PlantFUNCO_data/Arabidopsis/1.PhyloP/PhyloP.bigwig",
           "locationType": "UriLocation"
         }
       },
@@ -309,7 +309,7 @@
       "adapter": {
         "type": "BigBedAdapter",
         "bigBedLocation": {
-          "uri": "./PlantFUNCO_data/Arabidopsis/3.Oryza/CNEs/CNEs_At-Os.bb",
+          "uri": "PlantFUNCO_data/Arabidopsis/3.Oryza/CNEs/CNEs_At-Os.bb",
           "locationType": "UriLocation"
         }
       },
@@ -337,7 +337,7 @@
       "adapter": {
         "type": "BigBedAdapter",
         "bigBedLocation": {
-          "uri": "./PlantFUNCO_data/Arabidopsis/3.Zea/CNEs/CNEs_At-Zm.bb",
+          "uri": "PlantFUNCO_data/Arabidopsis/3.Zea/CNEs/CNEs_At-Zm.bb",
           "locationType": "UriLocation"
         }
       },
@@ -365,7 +365,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri": "./PlantFUNCO_data/Arabidopsis/3.Zea/LECIF/At-Zm_LECIFscore.bigwig",
+          "uri": "PlantFUNCO_data/Arabidopsis/3.Zea/LECIF/At-Zm_LECIFscore.bigwig",
           "locationType": "UriLocation"
         }
       },
@@ -395,7 +395,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri": "./PlantFUNCO_data/Arabidopsis/3.Oryza/LECIF/At-Os_LECIFscore.bigwig",
+          "uri": "PlantFUNCO_data/Arabidopsis/3.Oryza/LECIF/At-Os_LECIFscore.bigwig",
           "locationType": "UriLocation"
         }
       },
@@ -432,7 +432,7 @@
       "adapter": {
         "type": "ChainAdapter",
         "chainLocation": {
-          "uri": "./PlantFUNCO_data/Arabidopsis/3.Oryza/Chain/Arabidopsis_thalianavsOryza_sativa.chain",
+          "uri": "PlantFUNCO_data/Arabidopsis/3.Oryza/Chain/Arabidopsis_thalianavsOryza_sativa.chain",
           "locationType": "UriLocation"
         },
         "assemblyNames": [
@@ -455,7 +455,7 @@
       "adapter": {
         "type": "ChainAdapter",
         "chainLocation": {
-          "uri": "./PlantFUNCO_data/Arabidopsis/3.Zea/Chain/Arabidopsis_thalianavsZea_mays.chain",
+          "uri": "PlantFUNCO_data/Arabidopsis/3.Zea/Chain/Arabidopsis_thalianavsZea_mays.chain",
           "locationType": "UriLocation"
         },
         "assemblyNames": [
@@ -471,7 +471,7 @@
       "adapter": {
         "type": "BigBedAdapter",
         "bigBedLocation": {
-          "uri": "./PlantFUNCO_data/Oryza/1.PhastCons/PhastCons.bb",
+          "uri": "PlantFUNCO_data/Oryza/1.PhastCons/PhastCons.bb",
           "locationType": "UriLocation"
         }
       },
@@ -504,7 +504,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri": "./PlantFUNCO_data/Oryza/1.PhyloP/PhyloP.bigwig",
+          "uri": "PlantFUNCO_data/Oryza/1.PhyloP/PhyloP.bigwig",
           "locationType": "UriLocation"
         }
       },
@@ -523,7 +523,7 @@
       "adapter": {
         "type": "BigBedAdapter",
         "bigBedLocation": {
-          "uri": "./PlantFUNCO_data/Oryza/3.Arabidopsis/CNEs/CNEs_Os-At.bb",
+          "uri": "PlantFUNCO_data/Oryza/3.Arabidopsis/CNEs/CNEs_Os-At.bb",
           "locationType": "UriLocation"
         }
       },
@@ -551,7 +551,7 @@
       "adapter": {
         "type": "BigBedAdapter",
         "bigBedLocation": {
-          "uri": "./PlantFUNCO_data/Oryza/3.Zea/CNEs/CNEs_Os-Zm.bb",
+          "uri": "PlantFUNCO_data/Oryza/3.Zea/CNEs/CNEs_Os-Zm.bb",
           "locationType": "UriLocation"
         }
       },
@@ -579,7 +579,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri": "./PlantFUNCO_data/Oryza/3.Zea/LECIF/Os-Zm_LECIFscore.bigwig",
+          "uri": "PlantFUNCO_data/Oryza/3.Zea/LECIF/Os-Zm_LECIFscore.bigwig",
           "locationType": "UriLocation"
         }
       },
@@ -609,7 +609,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri": "./PlantFUNCO_data/Oryza/3.Arabidopsis/LECIF/Os-At_LECIFscore.bigwig",
+          "uri": "PlantFUNCO_data/Oryza/3.Arabidopsis/LECIF/Os-At_LECIFscore.bigwig",
           "locationType": "UriLocation"
         }
       },
@@ -646,7 +646,7 @@
       "adapter": {
         "type": "ChainAdapter",
         "chainLocation": {
-          "uri": "./PlantFUNCO_data/Oryza/3.Arabidopsis/Chain/Oryza_sativavsArabidopsis_thaliana.chain",
+          "uri": "PlantFUNCO_data/Oryza/3.Arabidopsis/Chain/Oryza_sativavsArabidopsis_thaliana.chain",
           "locationType": "UriLocation"
         },
         "assemblyNames": [
@@ -669,7 +669,7 @@
       "adapter": {
         "type": "ChainAdapter",
         "chainLocation": {
-          "uri": "./PlantFUNCO_data/Oryza/3.Zea/Chain/Oryza_sativavsZea_mays.chain",
+          "uri": "PlantFUNCO_data/Oryza/3.Zea/Chain/Oryza_sativavsZea_mays.chain",
           "locationType": "UriLocation"
         },
         "assemblyNames": [
@@ -685,7 +685,7 @@
       "adapter": {
         "type": "BigBedAdapter",
         "bigBedLocation": {
-          "uri": "./PlantFUNCO_data/Zea/1.PhastCons/PhastCons.bb",
+          "uri": "PlantFUNCO_data/Zea/1.PhastCons/PhastCons.bb",
           "locationType": "UriLocation"
         }
       },
@@ -718,7 +718,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri": "./PlantFUNCO_data/Zea/1.PhyloP/PhyloP.bigwig",
+          "uri": "PlantFUNCO_data/Zea/1.PhyloP/PhyloP.bigwig",
           "locationType": "UriLocation"
         }
       },
@@ -737,7 +737,7 @@
       "adapter": {
         "type": "BigBedAdapter",
         "bigBedLocation": {
-          "uri": "./PlantFUNCO_data/Zea/3.Arabidopsis/CNEs/CNEs_Zm-At.bb",
+          "uri": "PlantFUNCO_data/Zea/3.Arabidopsis/CNEs/CNEs_Zm-At.bb",
           "locationType": "UriLocation"
         }
       },
@@ -765,7 +765,7 @@
       "adapter": {
         "type": "BigBedAdapter",
         "bigBedLocation": {
-          "uri": "./PlantFUNCO_data/Zea/3.Oryza/CNEs/CNEs_Zm-Os.bb",
+          "uri": "PlantFUNCO_data/Zea/3.Oryza/CNEs/CNEs_Zm-Os.bb",
           "locationType": "UriLocation"
         }
       },
@@ -793,7 +793,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri": "./PlantFUNCO_data/Zea/3.Oryza/LECIF/Zm-Os_LECIFscore.bigwig",
+          "uri": "PlantFUNCO_data/Zea/3.Oryza/LECIF/Zm-Os_LECIFscore.bigwig",
           "locationType": "UriLocation"
         }
       },
@@ -823,7 +823,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri": "./PlantFUNCO_data/Zea/3.Arabidopsis/LECIF/Zm-At_LECIFscore.bigwig",
+          "uri": "PlantFUNCO_data/Zea/3.Arabidopsis/LECIF/Zm-At_LECIFscore.bigwig",
           "locationType": "UriLocation"
         }
       },
@@ -860,7 +860,7 @@
       "adapter": {
         "type": "ChainAdapter",
         "chainLocation": {
-          "uri": "./PlantFUNCO_data/Zea/3.Arabidopsis/Chain/Zea_maysvsArabidopsis_thaliana.chain",
+          "uri": "PlantFUNCO_data/Zea/3.Arabidopsis/Chain/Zea_maysvsArabidopsis_thaliana.chain",
           "locationType": "UriLocation"
         },
         "assemblyNames": [
@@ -883,7 +883,7 @@
       "adapter": {
         "type": "ChainAdapter",
         "chainLocation": {
-          "uri": "./PlantFUNCO_data/Zea/3.Oryza/Chain/Zea_maysvsOryza_sativa.chain",
+          "uri": "PlantFUNCO_data/Zea/3.Oryza/Chain/Zea_maysvsOryza_sativa.chain",
           "locationType": "UriLocation"
         },
         "assemblyNames": [
