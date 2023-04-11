@@ -44,9 +44,8 @@
         "adapter": {
           "type": "TwoBitAdapter",
           "twoBitLocation": {
-            "uri": "https://www.dropbox.com/s/o19wu33q31ov7nj/Zea_mays.fa.2bit?dl=0",
-            "locationType": "UriLocation",
-	    "internetAccountId": "dropboxOAuth"
+            "uri": "https://dl.dropboxusercontent.com/s/o19wu33q31ov7nj/Zea_mays.fa.2bit",
+            "locationType": "UriLocation"
           }
         }
       },
@@ -680,7 +679,7 @@
       "adapter": {
         "type": "ChainAdapter",
         "chainLocation": {
-          "uri": "https://www.dropbox.com/s/ioyaac4su2olqbs/Oryza_sativavsZea_mays.chain?dl=0",
+          "uri": "https://dl.dropboxusercontent.com/s/ioyaac4su2olqbs/Oryza_sativavsZea_mays.chain",
           "locationType": "UriLocation",
 	  "internetAccountId": "dropboxOAuth"
         },
@@ -895,9 +894,8 @@
       "adapter": {
         "type": "ChainAdapter",
         "chainLocation": {
-          "uri": "https://www.dropbox.com/s/sb54lcqn6ee5q69/Zea_maysvsOryza_sativa.chain?dl=0",
-          "locationType": "UriLocation",
-          "internetAccountId": "dropboxOAuth"
+          "uri": "https://dl.dropboxusercontent.com/s/sb54lcqn6ee5q69/Zea_maysvsOryza_sativa.chain",
+          "locationType": "UriLocation"
         },
         "assemblyNames": [
           "Zea_mays.fa",
@@ -949,13 +947,12 @@
       "type": "TrixTextSearchAdapter",
       "textSearchAdapterId": "Zea_mays.fa-index",
       "ixFilePath": {
-        "uri": "trix/Zea_mays.fa.ix",
+        "uri": "https://dl.dropboxusercontent.com/s/ywo4e6rq7ok2kjs/Zea_mays.fa.ix",
         "locationType": "UriLocation"
       },
       "ixxFilePath": {
-        "uri": "https://www.dropbox.com/s/ywo4e6rq7ok2kjs/Zea_mays.fa.ix?dl=0",
-        "locationType": "UriLocation",
-        "internetAccountId": "dropboxOAuth"
+        "uri": "trix/Zea_mays.fa.ixx",
+        "locationType": "UriLocation"
       },
       "metaFilePath": {
         "uri": "trix/Zea_mays.fa_meta.json",
