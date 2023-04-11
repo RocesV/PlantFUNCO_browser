@@ -44,8 +44,9 @@
         "adapter": {
           "type": "TwoBitAdapter",
           "twoBitLocation": {
-            "uri": "PlantFUNCO_data/Zea/0.Assembly/Zea_mays.2bit",
-            "locationType": "UriLocation"
+            "uri": "https://www.dropbox.com/s/o19wu33q31ov7nj/Zea_mays.fa.2bit?dl=0",
+            "locationType": "UriLocation",
+	    "internetAccountId": "dropboxOAuth"
           }
         }
       },
@@ -60,6 +61,22 @@
   "defaultSession": {
     "name": "New Session"
   },
+  "internetAccounts": [
+    {
+      "type": "DropboxOAuthInternetAccount",
+      "internetAccountId": "dropboxOAuth",
+      "name": "Dropbox",
+      "description": "Account to access Dropbox files",
+      "clientId": "50knr6xrjfc39sk"
+    },
+    {
+      "type": "GoogleDriveOAuthInternetAccount",
+      "internetAccountId": "googleOAuth",
+      "name": "Google Drive",
+      "description": "Account to access Google Drive files",
+      "clientId": "109518325434-udfch80a0v70mgu65d5fejqsq5kvhm1b.apps.googleusercontent.com"
+    }
+  ],
   "tracks": [
     {
       "type": "FeatureTrack",
@@ -663,8 +680,9 @@
       "adapter": {
         "type": "ChainAdapter",
         "chainLocation": {
-          "uri": "PlantFUNCO_data/Oryza/3.Zea/Chain/Oryza_sativavsZea_mays.chain",
-          "locationType": "UriLocation"
+          "uri": "https://www.dropbox.com/s/ioyaac4su2olqbs/Oryza_sativavsZea_mays.chain?dl=0",
+          "locationType": "UriLocation",
+	  "internetAccountId": "dropboxOAuth"
         },
         "assemblyNames": [
           "Oryza_sativa.fa",
@@ -877,8 +895,9 @@
       "adapter": {
         "type": "ChainAdapter",
         "chainLocation": {
-          "uri": "PlantFUNCO_data/Zea/3.Oryza/Chain/Zea_maysvsOryza_sativa.chain",
-          "locationType": "UriLocation"
+          "uri": "https://www.dropbox.com/s/sb54lcqn6ee5q69/Zea_maysvsOryza_sativa.chain?dl=0",
+          "locationType": "UriLocation",
+          "internetAccountId": "dropboxOAuth"
         },
         "assemblyNames": [
           "Zea_mays.fa",
@@ -934,8 +953,9 @@
         "locationType": "UriLocation"
       },
       "ixxFilePath": {
-        "uri": "trix/Zea_mays.fa.ixx",
-        "locationType": "UriLocation"
+        "uri": "https://www.dropbox.com/s/ywo4e6rq7ok2kjs/Zea_mays.fa.ix?dl=0",
+        "locationType": "UriLocation",
+        "internetAccountId": "dropboxOAuth"
       },
       "metaFilePath": {
         "uri": "trix/Zea_mays.fa_meta.json",
